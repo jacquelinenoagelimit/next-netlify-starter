@@ -1,17 +1,4 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
-
-export default function Home() {
-  return (
-    <div className="container">
-      <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main>
-       <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8"/>
@@ -3115,9 +3102,3 @@ window.application = new Application();
 </div>
 </body>
 </html>
-      </main>
-
-      <Footer />
-    </div>
-  )
-}
